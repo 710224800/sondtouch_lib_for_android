@@ -1,0 +1,2 @@
+# sondtouch_lib_for_android
+移植到android环境下的soundtouch库，提供了常用的api
