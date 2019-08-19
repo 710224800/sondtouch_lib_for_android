@@ -19,6 +19,7 @@ include $(CLEAR_VARS)
 
 # *** Remember: Change -O0 into -O2 in add-applications.mk ***
 
+LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
 LOCAL_MODULE    := soundtouch
 LOCAL_SRC_FILES := com_madv_soundtouch_SoundTouch.cpp \
                 SoundTouch/AAFilter.cpp   SoundTouch/FIFOSampleBuffer.cpp \
